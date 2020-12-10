@@ -28,7 +28,7 @@ This last image image shows you a losing game that player not able to correctly 
 
 - The actual game can be played using the link below
 
-  [Save Pikachu](www.eee)
+  [Save Pikachu](https://rolou1213.github.io/project1/)
 
 - Next Steps: 
 
