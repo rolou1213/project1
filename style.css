@@ -1,0 +1,117 @@
+html {
+    display: flex;
+    background-image: url("IMG/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+button{
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+body{
+    overflow: hidden;
+    height: 100vh;
+    max-height: 100vh;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:60px;
+  }
+h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+  }
+  
+
+#start-contianer{
+    display:flex;
+    flex-direction: column;
+    padding-left: 30px;
+    position: absolute;
+    padding-top: 10px;
+    
+}
+
+#bomb-contianer{
+    display:flex;
+    flex-direction: column;
+    padding-right: 30px;
+    position: absolute;
+    right:2%;
+    
+}
+#start img{
+    height: 60px;
+    width: 140px;
+    position: relative;
+    top: 10%;
+    right: 2%;
+
+}
+
+#rule img{
+    height: 60px;
+    width: 140px;
+    position: relative;
+    top: 10%;
+    right: 2%;
+
+}
+
+#letters{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    bottom:2vh;
+    padding-bottom: 150px;
+}
+
+#letters img{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    bottom:4vh;
+    margin: 10px;
+    height:60px;
+    width: 60px;
+}
+
+
+#bomb{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    height: 80px;
+    width: 80px;
+}
+#pikachu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    height: 250px;
+    width: 200px;
+    padding-bottom: 15px;
+}
+#number{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    height: 60px;
+    width: 60px;
+}
